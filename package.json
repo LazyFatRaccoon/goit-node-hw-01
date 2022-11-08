@@ -1,0 +1,30 @@
+{
+  "name": "goit-node-hw-01",
+  "version": "1.0.0",
+  "description": "test node CLI app",
+  "main": "index.js",
+  "dependencies": {
+    "colors": "^1.4.0",
+    "commander": "^9.4.1",
+    "uuid": "^9.0.0"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.20"
+  },
+  "type": "module",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js",
+    "start:dev": "nodemon index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/LazyFatRaccoon/goit-node-hw-01.git"
+  },
+  "author": "Raccoon~ <vladimir.todorov.ukraine@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/LazyFatRaccoon/goit-node-hw-01/issues"
+  },
+  "homepage": "https://github.com/LazyFatRaccoon/goit-node-hw-01#readme"
+}
